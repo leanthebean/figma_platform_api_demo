@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello Figma</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="https://milligram.io/styles/main.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/google/code-prettify/master/loader/prettify.css">
+  
+  <link href='index.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <main class="wrapper">
+      <section class="container">  
+          <img src="magician.png" height="150px" width="auto"/>
+          <h1 class="title">Figma Platform API Demo</h1>
+          <p class="description">Mint Non-Fungible Tokens on the Ethereum network right out of a Figma file</p>
+          <input placeholder="Figma url..." type='text' class='form-control' id='figma-url'>
+          <center><img src="loading.gif" class="loading-gif" id="loading-gif" style="visibility: hidden;"/></center>
+          <div id='gallery'></div>
+        </section>
+  </main>
+</body>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+ <script src='js/web3.min.js'></script>
+ <script src='js/truffle-contract.js'></script>
+ <script src='js/app.js'></script>
+</html>
