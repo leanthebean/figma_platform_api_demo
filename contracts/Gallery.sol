@@ -16,4 +16,8 @@ contract Gallery is ERC721Token, Ownable {
     _mint(msg.sender, newTokenId);
     idToIpfsHash[newTokenId] = _ipfsHash;
   }
+
+  function getIpfsHash(uint _tokenId) public view returns(string) { 
+    return idToIpfsHash[_tokenId];
+  }
 }
