@@ -1,6 +1,7 @@
 # Figma Platform API Tutorial - Create Ethereum Non-Fungible tokens directly out of a Figma file
 
-*This tutorial will walk you through how to create non-fungible tokens representing digital art on Ethereum straight out of a Figma file* 
+*This tutorial will walk you through how to create non-fungible tokens representing digital art on Ethereum straight out of a Figma file. The video overview can be found here: https://www.youtube.com/watch?v=-fMUngXFXQY* 
+
 
 ![](https://i.imgur.com/orHZcqk.png)
 
